@@ -1,0 +1,20 @@
+<?php
+
+function new_block_block_info() {
+  $block['new_block'] = array(
+    'info' => t('New Block'),
+    'cache' => DRUPAL_NO_CACHE,
+  );
+  return $block;
+}
+
+function new_block_block_view($block_key) {
+    $block = array();
+
+    if($block_key == 'new_block') {
+      $block['subject'] = t('My New Block');
+      $block['content'] = t('Chris was here');
+    }
+
+    return $block;
+}

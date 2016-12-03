@@ -1,0 +1,4 @@
+name = Custom
+description = Provides space for hook functions
+core = 7.x
+package = custom

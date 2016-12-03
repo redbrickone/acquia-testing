@@ -1,0 +1,15 @@
+name = New Theme
+description = A theme that is new
+core = 7.x
+engine = phptemplate
+
+regions[header] = Header
+regions[sidebar_first] = Left Sidebar
+regions[sidebar_second] = Right Sidebar
+regions[content] = Content
+regions[footer] = Footer
+
+stylesheets[all][] = css/custom.css
+
+features[] = name
+features[] = main_menu
