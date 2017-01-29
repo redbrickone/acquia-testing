@@ -1,0 +1,4 @@
+name = Neoviews
+description = a better views
+core = 7.x
+php = 5.2

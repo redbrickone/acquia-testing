@@ -1,0 +1,14 @@
+name = Custom Theme 3
+description = My Third Custom Theme
+core = 7.x
+
+regions[header] = Header
+regions[sidebar_first] = Left Sidebar
+regions[content] = Content
+regions[footer] = Footer
+
+stylesheets[all][] = css/style.css
+stylesheets[print][] = css/print.css
+
+features[] = name
+features[] = main_menu

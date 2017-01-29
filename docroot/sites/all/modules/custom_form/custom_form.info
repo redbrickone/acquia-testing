@@ -1,0 +1,4 @@
+name = My custom form
+description = makes a custom form
+core = 7.x
+package = Custom

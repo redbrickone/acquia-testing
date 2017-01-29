@@ -1,0 +1,19 @@
+name = Custom Theme
+description = My Custom Theme
+screenshot = screenshot.png
+
+core = 7.x
+engine = phptemplate
+
+regions[header] = Header
+regions[sidebar_fist] = Right Sidebar
+regions[content] = Content
+regions[footer] = Footer
+
+stylesheets[all][] = css/style.css
+stylesheets[print][] = css/print.css
+
+scripts[] = js/custom.js
+
+features[] = name
+features[] = main_menu

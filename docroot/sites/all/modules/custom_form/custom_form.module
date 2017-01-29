@@ -1,0 +1,20 @@
+<?php
+
+$form = drupal_get_form('custom_form');
+
+function custom_form_form($form, &$form_state) {
+  $form['submit'] = array(
+    '#type' => 'submit',
+    '#value' => t('Submit'),
+  );
+  return $form;
+}
+
+function custom_form_form_validate($form, &$form_state) {
+}
+
+function custom_form_form_submit($form, &$form_state) {
+}
+
+function custom_form_form_submit($form, &$form_state) {
+}

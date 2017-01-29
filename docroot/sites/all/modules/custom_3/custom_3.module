@@ -1,0 +1,21 @@
+<?php
+
+function custom_3_block_info() {
+  $blocks['my-links'] = array(
+    'info' => t('My Links Block'),
+    'cache' => DRUPAL_NO_CACHE,
+  );
+
+  return $blocks;
+}
+
+function custom_3_block_view($delta = '') {
+  $block = array();
+  switch ($delta) {
+    case 'my-links':
+      $block['subject'] = t('Block Title');
+      $block['content'] = t('Hello World!');
+      break;
+  }
+  return $block;
+}

@@ -1,0 +1,4 @@
+name = Form Example Module
+description = my form example module
+core = 7.x
+package = Custom

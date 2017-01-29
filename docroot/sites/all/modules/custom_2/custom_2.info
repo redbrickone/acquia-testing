@@ -1,0 +1,4 @@
+name = Custom Module 2
+description = My Second Custom Module
+core = 7.x
+package = Custom

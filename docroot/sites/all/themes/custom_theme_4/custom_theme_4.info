@@ -1,0 +1,17 @@
+name = Custom Theme 4
+description = My fourth custom theme
+core = 7.x
+engine = phptemplate
+
+regions[header] = Header
+regions[sidebar_first] = Sidebar First
+regions[content] = Content
+regions[footer] = Footer
+
+stylesheets[all][] = css/style.css
+stylesheets[print][] = css/print.css
+
+scripts[] = js/custom.js
+
+features[] = name
+features[] = main_menu

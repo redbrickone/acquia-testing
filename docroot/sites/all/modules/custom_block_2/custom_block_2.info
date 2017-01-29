@@ -1,0 +1,5 @@
+name = Custom Block 2
+description = My second custom block
+core = 7.x
+
+configure = admin/config/content/custom_block_2
