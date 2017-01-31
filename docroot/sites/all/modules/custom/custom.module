@@ -1,5 +1,40 @@
 <?php
 
 function custom_page_alter(&$page) {
-  dpm($page);
+//  dpm($page);
+}
+
+/**
+ * Implements hook_node_insert().
+ */
+function custom_node_insert($node)
+{
+//  dpm($node);
+}
+
+/**
+ * Implements hook_preprocess().
+ */
+//function custom_preprocess(&$variables, $hook)
+//{
+//  dpm($variables);
+//}
+
+/**
+ * Implements hook_node_access().
+ */
+function custom_node_access($node, $op, $account)
+{
+    $type = is_string($node) ? $node : $node->type;
+    if ($op == 'create') {
+        if (user_access('edit any ' . $type . ' content', $account)) {
+            return NODE_ACCESS_ALLOW;
+        }
+    }
+    if ($op == 'update') {
+
+    }
+    if ($op == 'delete') {
+
+    }
 }

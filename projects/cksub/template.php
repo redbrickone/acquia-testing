@@ -10,6 +10,7 @@ function cksub_preprocess_html(&$variables) {
  * Implements template_preprocess_page.
  */
 function cksub_preprocess_page(&$variables) {
+    dpm($variables);
 }
 
 /**
